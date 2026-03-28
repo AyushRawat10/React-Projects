@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <h1>Chai aur React | Ayush Rawat</h1>
+      <h1><span className='text-amber-600'>Chai</span> aur <span className='text-blue-400'>React</span> | <span className='text-gray-500'>Ayush Rawat</span></h1>
       <h2>Counter value : {counter}</h2>
       <button
       onClick={addValue}
